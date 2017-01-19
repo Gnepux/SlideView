@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlideView">
+        <!--背景图片-->
+        <attr name="bg_drawable" format="reference"/>
+        <!--按钮的背景图-->
+        <attr name="icon_drawable" format="reference"/>
+        <!--按钮上显示的文字-->
+        <attr name="icon_text" format="string"/>
+        <!--按钮上文字的颜色-->
+        <attr name="icon_text_color" format="color"/>
+        <!--按钮上文字的大小-->
+        <attr name="icon_text_size" format="dimension"/>
+        <!--按钮宽占总宽度的比例-->
+        <attr name="icon_ratio" format="float"/>
+        <!--背景文字-->
+        <attr name="bg_text" format="string"/>
+        <!--拖动完成的背景文字-->
+        <attr name="bg_text_complete" format="string"/>
+        <!--背景文字的颜色-->
+        <attr name="bg_text_color" format="color"/>
+        <!--背景文字的大小-->
+        <attr name="bg_text_size" format="dimension"/>
+        <!--控件最小高度-->
+        <attr name="min_height" format="dimension"/>
+        <!--已拖动部分的颜色-->
+        <attr name="secondary_color" format="color"/>
+        <!--拖动到一半松开是否重置按钮-->
+        <attr name="reset_not_full" format="boolean"/>
+        <!--拖动结束后是否可以再次操作-->
+        <attr name="enable_when_full" format="boolean"/>
+        <!-- 背景文字渐变颜色1 -->
+        <attr name="gradient_color1" format="color"/>
+        <!-- 背景文字渐变颜色2 -->
+        <attr name="gradient_color2" format="color"/>
+        <!-- 背景文字渐变颜色3 -->
+        <attr name="gradient_color3" format="color"/>
+    </declare-styleable>
+</resources>

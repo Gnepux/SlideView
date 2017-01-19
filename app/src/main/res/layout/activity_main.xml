@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="com.gnepux.demo.MainActivity">
+
+    <CheckBox
+        android:id="@+id/cb_reset_when_not_full"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="滑动未完成松开是否复原"/>
+
+    <CheckBox
+        android:id="@+id/cb_enable_when_full"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="滑动完成松开后是否可继续拖动"/>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="复原" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="32dp"/>
+
+    <com.gnepux.slideview.SlideView
+        android:id="@+id/slideview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bg_text="滑动开始确认"
+        app:bg_text_color="@color/white"
+        app:bg_text_size="18sp"
+        app:bg_text_complete="松开即可确认"
+        app:icon_drawable="@drawable/btn_confirm_wy_yellow"
+        app:min_height="48dp"
+        app:icon_ratio="0.15"
+        app:enable_when_full="false"
+        app:reset_not_full="true"
+        app:secondary_color="@color/yellow"
+        app:bg_drawable="@drawable/bg_slide_view"
+        app:gradient_color1="#0a0a0a"
+        app:gradient_color2="#FFFFFF"
+        app:gradient_color3="#0a0a0a"/>
+
+</LinearLayout>
