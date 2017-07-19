@@ -1,13 +1,13 @@
 # SlideView
 SlideView是一个Android自定义滑动确认控件，当然使用的场景不仅限于滑动确认。
 
-##Snapshots
+## Snapshots
 <img src="https://github.com/Gnepux/SlideView/blob/master/snapshot/slideview1.jpeg" height = "600" alt="slideview1" align=center />
 <img src="https://github.com/Gnepux/SlideView/blob/master/snapshot/slideview2.jpeg" height = "600" alt="slideview2" align=center />
 <img src="https://github.com/Gnepux/SlideView/blob/master/snapshot/slideview3.jpeg" height = "600" alt="slideview2" align=center />
 
 
-##使用方式
+## 使用方式
 在layout引用com.gnepux.slideview.SlideView
 ```xml
 <com.gnepux.slideview.SlideView
@@ -103,10 +103,10 @@ boolean isResetWhenNotFull();
  */
 void addSlideListener(OnSlideListener listener);
 ```
-##实现原理
+## 实现原理
 [Android自定义滑动确认控件SlideView](https://my.oschina.net/u/3026396/blog/817257)
 
-##联系作者
+## 联系作者
 QQ: 386832294<br/>
 wehat: Mrfeijie(386832294)<br/>
 email: roc_hsu@163.com
